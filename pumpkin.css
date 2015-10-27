@@ -1,4 +1,6 @@
 body {
 background: url("Pick.jpg");
 background:-size: 100%;
+background-position:top;
+background-repeat: vertical-align;
 }
