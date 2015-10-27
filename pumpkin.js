@@ -1,7 +1,7 @@
 function createElement() {
 	var img = document.createElement('img');
 	img.setAttribute("style", "position:absolute;");
-	img.setAttribute("src", "message01.png");
+	img.setAttribute("src", "pickme1.png");
 	document.body.appendChild(img);
 	var xy = getRandomPosition(img);
 	img.style.top = xy[0] + 'px';
