@@ -14,10 +14,10 @@ setInterval(
   function(){
     var img = document.createElement('img');
     img.style.position = "fixed";
-	var x = Math.floor(Math.random()*2000);
+	var x = Math.floor(Math.random()*1000);
 	img.style.top = y;
 	console.log(x);
-	var y = Math.floor(Math.random()*2000);
+	var y = Math.floor(Math.random()*1000);
 	img.style.left = x + "px";
 	console.log(y);
 	img.setAttribute("src", "pickme"+Math.floor(Math.random() * (1))+".png");
