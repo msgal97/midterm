@@ -17,13 +17,13 @@ setInterval(
 	var x = Math.floor(Math.random()*1000);
 	img.style.top = y;
 	console.log(x);
-	var y = Math.floor(Math.random()*500);
+	var y = Math.floor(Math.random()*1000);
 	img.style.left = x + "px";
 	console.log(y);
 	img.setAttribute("src", "pickme"+Math.floor(Math.random() * (1))+".png");
 	img.style.top = y + "px";
 	document.body.appendChild(img);
-},2000);
+},4000);
 
 	</script>
 	</body>
